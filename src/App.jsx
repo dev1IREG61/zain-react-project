@@ -19,7 +19,7 @@ function App() {
         <div className="bg-white rounded-2xl shadow-2xl p-6 text-center animate-fade-in">
           <h2 className="text-2xl font-bold text-purple-600 mb-2">Welcome g</h2>
           <p className="text-lg text-gray-700">lahore is the city </p>
-          <h1>try</h1>
+          <h1>try this </h1>
           <button
             onClick={() => setShowPopup(false)}
             className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition"
