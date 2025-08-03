@@ -50,7 +50,7 @@ jobs:
 
       - name: Deploy to Apache Server
         run: |
-          scp -i ~/.ssh/id_rsa -r dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/var/www/html
+          scp -i ~/.ssh/id_rsa -r dist/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/var/www/mypowerly
 
       - name: Restart Apache
         run: |
