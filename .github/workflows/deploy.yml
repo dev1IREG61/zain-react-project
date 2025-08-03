@@ -89,4 +89,5 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
           chmod 600 private_key
-          scp -i private_key -o StrictHostKeyChecking=no -r dist/* root@145.223.79.113:/var/www/html/
+          scp -i private_key -o StrictHostKeyChecking=no -r dist/* root@145.223.79.113:/var/www/mypowerly/dist/
+
