@@ -17,7 +17,7 @@ function App() {
       {/* Popup */}
       {showPopup && (
         <div className="bg-white rounded-2xl shadow-2xl p-6 text-center animate-fade-in">
-          <h2 className="text-2xl font-bold text-purple-600 mb-2">Welcome</h2>
+          <h2 className="text-2xl font-bold text-purple-600 mb-2">Welcome g</h2>
           <p className="text-lg text-gray-700">lahore</p>
           <button
             onClick={() => setShowPopup(false)}
